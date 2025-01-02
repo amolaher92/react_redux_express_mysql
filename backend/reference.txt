@@ -1,2 +1,8 @@
 npm install express mysql2 sequelize dotenv cors helmet morgan body-parser bcryptjs jsonwebtoken passport passport-jwt nodemailer immer date-fns
 npm install --save-dev typescript ts-node @types/node @types/express @types/lodash @types/sequelize @types/cors @types/body-parser @types/jsonwebtoken @types/validator @types/morgan @types/passport @types/passport-jwt
+module.exports = {
+  preset: 'ts-jest',
+  testEnvironment: 'node',
+  testMatch: ['**/?(*.)+(spec|test).[jt]s?(x)',
+  '**/?(*.)+(spec|test).[jt]s?(x)']
+};
