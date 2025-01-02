@@ -1,0 +1,45 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "express mysql backend",
+  "main": "index.js",
+  "type": "module",
+  "author": "Amol Aher",
+  "keywords": [
+    "nodejs",
+    "expressjs",
+    "mysql",
+    "odm"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^5.0.0",
+    "@types/lodash": "^4.17.13",
+    "@types/node": "^22.10.3",
+    "@types/sequelize": "^4.28.20",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "date-fns": "^4.1.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-validator": "^7.2.1",
+    "helmet": "^8.0.0",
+    "immer": "^10.1.1",
+    "jsonwebtoken": "^9.0.2",
+    "lodash": "^4.17.21",
+    "morgan": "^1.10.0",
+    "mysql2": "^3.12.0",
+    "nanoid": "^5.0.9",
+    "nodemailer": "^6.9.16",
+    "passport": "^0.7.0",
+    "passport-jwt": "^4.0.1",
+    "sequelize": "^6.37.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2",
+    "validator": "^13.12.0"
+  }
+}
